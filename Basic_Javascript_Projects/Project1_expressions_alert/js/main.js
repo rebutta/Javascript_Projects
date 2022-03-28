@@ -20,3 +20,7 @@ var W = 8
 var M = 8
 
 document.write(W+M)
+
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
