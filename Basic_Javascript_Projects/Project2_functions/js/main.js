@@ -8,3 +8,7 @@ function myFunction () {//assigning data to myFunction
     sentence += " didn't you!?"; //variable sentence two
     document.getElementById("Concatenate").innerHTML = sentence; //paragraph element is assigned this variable
 }
+
+function myFunction () {
+document.getElementById("Concatenate").style.color = "red";
+}
