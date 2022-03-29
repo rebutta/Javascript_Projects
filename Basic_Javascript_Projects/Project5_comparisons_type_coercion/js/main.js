@@ -39,3 +39,4 @@ document.write(5 > 10 || 10 > 20);
 function not_function() {
     document.getElementById("not").innerHTML = !( 5 > 10);
 }
+
