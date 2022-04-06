@@ -87,7 +87,7 @@ function Handle_Operator(Next_Operator) {
 
  //this function updates the screen with the contents of Display_Value
  function Update_Display() {
-    const display = document.querySelector('.calculator-screens');
+    const display = document.querySelector('.calculator-screen');
     display.value = Calculator.Display_Value;
  }
 
