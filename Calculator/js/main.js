@@ -29,8 +29,10 @@ const Calculator = {
     //this ensures that accidental clicking of the decimal point 
     //doesn't cause bugs in your operation
     if (Calculator.Wait_Second_Operand === true) return;
-    if (Calculator.Display_Value.includes(dot)) {
-        Calculator.Display_Value += dot;
+    if (!Calculator.Display_Value.includes(dot)) {
+    //we are saying if the Display_Value does not contain a decimal point 
+    //we want to add a decimal point
+      Calculator.Display_Value += dot;
     }
 }
 
