@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(15, 15, 175)
+}
+
+#menuBG {
+    width: 600px;
+    height: 470px;
+    margin: 10px auto;
+    background-color: rgb(5, 5, 120)
+}
+
+#frmMenu {
+    width: 600px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.middle {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top:0;margin:0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+h1, h3, div {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(243, 135, 33);
+}
